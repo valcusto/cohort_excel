@@ -1,11 +1,13 @@
-** Business problem **
+**Business problem**
 
 SuperStore is a supermarket chain with multiple physical stores that aim to supply various consumer products. Recently, the management team at SuperStore identified a challenge: customer retention. They observed that despite the sales growing, the frequency of recurrent customers buying at the store has decreased. Due to that, the new analysis is to understand why the customers stop buying at SuperStore and offer a solution to retain the customer.
 This project aims to answer 3 main questions:
 1.	What is causing customers to stop buying at the SuperStore?
 2.	What initiatives can reverse this behaviour?
 3.	How can SuperStore increase its customer loyalty? 
-Solution
+
+**Solution**
+
 To address this problem, I will use the cohort analysis. To plan the solution, I will follow the five key steps of data analysis:
 1.	Define the fact: This critical step helps to 1) establish the aim of the analysis, 2) identify relevant business events, and 3) select the appropriate metrics for the analysis.
 2.	Define the dimensions: Dimensions are qualitative attributes that provide context to the fact.
@@ -13,7 +15,8 @@ To address this problem, I will use the cohort analysis. To plan the solution, I
 4.	Select appropriate visualization tools: choosing the right graphical tools ensures the data is presented clearly and effectively. 
 5.	Present macro and micro views: the final step involves providing macro perspectives (broad trends) and micro-level details (specific insights) of the fact. 
 The solution's planning involved applying the SAPE method developed by the Comunidade DS. This method encompasses the definition of an output (SA: saida), the process (P), and the input (E: entrada).
-Planning (SAPE and Five steps of data analysis)
+
+**Planning (SAPE and Five steps of data analysis)**
 1.	Define the fact
 Customer ID
 2.	Define the dimensions
