@@ -18,7 +18,7 @@ To address this problem, I will use the cohort analysis. To plan the solution, I
 5.	Present macro and micro views: the final step involves providing macro perspectives (broad trends) and micro-level details (specific insights) of the fact. 
 The solution's planning involved applying the SAPE method developed by the Comunidade DS. This method encompasses the definition of an output (SA: saida), the process (P), and the input (E: entrada).
 
-## Planning (SAPE and Five steps of data analysis)**
+## Planning (SAPE and Five steps of data analysis)
 1.	Define the fact
 Customer ID
 2.	Define the dimensions
