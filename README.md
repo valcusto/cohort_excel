@@ -20,8 +20,11 @@ The solution's planning involved applying the SAPE method developed by the Comun
 
 ## Planning (SAPE and Five steps of data analysis)
 1.	Define the fact
+   
 Customer ID
+
 2.	Define the dimensions
+
 Column	Dimensions	Description
 Order Date	Time	When?
 Ship Date		
@@ -31,18 +34,27 @@ Sales	Product	What?
 Quantity		
 Discount		
 Product ID		
-3.	Combine fact and dimensions
-1.	Customer number (fact) who placed a new order (Order Date) in the months following their first purchase (Order Date).
-4.	Hypothesis
+
+4.	Combine fact and dimensions
+
+Customer number (fact) who placed a new order (Order Date) in the months following their first purchase (Order Date).
+
+5.	Hypothesis
+
 Which panels will answer the question? A retention cohort table
 	
-5.	Select appropriate visualization tools.
+6.	Select appropriate visualization tools.
+
 Graph	Message	Vizualization
+
 Customer number who placed a new order in the months following their first purchase	1.	Retention	1.	Table
-6.	Output (Saida)
+
+7.	Output (Saida)
+
 A table with the customer ID, acquisition month, activity month and elapsed month.
 
-7.	Process (CRISP-DS method)
+8.	Process (CRISP-DS method)
+
 a)	Combine tables
 b)	Define cohorts
 c)	Find the customer acquisition month
@@ -50,7 +62,8 @@ d)	Define the time (in months) from the active purchase until the first purchase
 e)	Built the Cohort table
 f)	Result interpretation
 
-8.	Input (Entrada)
+9.	Input (Entrada)
+
 Orders.csv file – Acquisition month | Active month | Month passed
 Customer.csv file – Customer ID
 
